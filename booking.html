@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="externalstyle.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+       <div class="title-image">
+    <div class="title-text">
+    <a class = "goHome" href="index.html"><h1 style="font-size:50px">Clémence</h1></a>
+  </div>
+  </div>
+ <div class="topnav">
+    <a href = "index.html">Home</a>
+    <a href= "about.html"> Stylists </a>
+    <a href="mission.html">Mission</a>
+    <a href="portfolio.html">Portfolio</a>
+     <a href="contact_M.html">Contact</a>
+     <a class="active" href="#booking">Booking</a>
+     <a href="styleQuiz.html">Style Quiz</a>
+  </div>
+  <div style="padding-left:16px">
+  </div>
+ <div class="flex-container"></div><br>
+
+
+<!--   form to input information -->
+<form onsubmit="return validate()" name = "myForm">
+  <h2>Book an appointment</h2>
+
+  <p class="center-block"><label>First Name:</label> <input type="text"  name='fname' /></p>
+<p class="center-block"><label>Last Name*:</label>  <input type="text"  name='lname' /></p>
+<p class="center-block"><label>Phone*:</label> <input type="text"  name='phone' /></p>
+<p class="center-block"><label>Email:</label> <input type="text" name='email' /></p>
+<p class="center-block"><label>Goal for Stylist:</label> <input type="text" name='goals' /></p>
+
+<p> 
+  
+ <input class = "button" type = "button" value = "Submit" />
+</form> 
+
+<!--   footer -->
+	<div class="footer">
+		<div class = "foot_left">
+			<p>Hours of operation: 9:00am - 5:00pm</p>
+			<p>Phone: (555)-555-5555</p>
+			<p>Email: support@clemence.com</p>
+		</div>
+		<div class = "foot_right">
+			<a class = "footHome" href="index.html">Clémence</a>
+		</div>
+	</div>
+	
+<script src="clairescript.js"></script>
+  
+</body>
+
+</html>

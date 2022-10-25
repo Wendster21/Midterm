@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Style Quiz</title>
+	<link href="externalstyle.css" rel="stylesheet" type="text/css" />
+</head>
+
+<style>
+	.question {
+		display: none;
+		}
+	#q0 {
+		display: initial;
+	}
+	body{
+		background: #FFD4DF;
+		color: #E75480;
+	}
+	.content{
+		display: flex;
+		align-items: left;
+		padding: 20px;
+	}
+</style>
+
+<body>
+        <div class="title-image">
+    <div class="title-text">
+    <a class = "goHome" href="index.html"><h1 style="font-size:50px">Clémence</h1></a>
+  </div>
+  </div>
+  <div class="topnav">
+    <a href = "index.html">Home</a>
+    <a href= "about.html"> About </a>
+    <a href = "mission.html">Mission</a>
+    <a href = "portfolio.html"> Portfolio </a>
+     <a href = "contact_M.html">Contact</a>
+     <a href = "booking.html">Booking</a>
+     <a class="active" href="#Style Quiz">Style Quiz</a>
+  </div>
+  <div style="padding-left:16px">
+	<div class="content">
+		<div class = "text"
+			<div id="quiz"></div>
+			<div id="answer"></div>
+			<div id="error"></div>
+		</div>
+		<div class = "buttons">
+			<button id='next' class = "button">Next</button>
+			<button id='submit' class = "button" >Submit</button>
+		</div>
+	</div>
+	  
+	<div class="footer">
+		<div class = "foot_left">
+			<p>Hours of operation: 9:00am - 5:00pm</p>
+			<p>Phone: (555)-555-5555</p>
+			<p>Email: support@clemence.com</p>
+		</div>
+		<div class = "foot_right">
+			<a class = "footHome" href="index.html">Clémence</a>
+		</div>
+	</div>
+
+	  
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="styleQuiz.js"></script>
+</body>
+
+</html>
